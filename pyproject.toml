@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "SPARQL-query"
+version = "0.1.0"
+description = ""
+authors = ["Jidhu Mohan <jidhumohan.mattummalvalappil@siemens.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+SPARQLWrapper = "^1.8.5"
+pandas = "^1.3.5"
+numpy = "^1.22.1"
+rdflib = "^6.1.1"
+PyYAML = "^6.0"
+pyvis = "^0.1.9"
+networkx = "^2.6.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+jupyter = "^1.0.0"
+ipykernel = "^6.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
